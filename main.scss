@@ -1,16 +1,26 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    width: 1400px;
-    margin: 0 auto;
+  width: 1400px;
+  margin: 0 auto;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
+
+.curved-background {
+  background-color: #FFF1C9;
+  height: 800px;
+  clip-path: polygon(100% 0, 100% 69%, 0 100%, 0 0);
+}
+
+
+
+/*# sourceMappingURL=main.scss.map */
